@@ -1,6 +1,6 @@
 name: 📖 Documentation
 description: Suggest an improvement or fix to the documentation of this project
-title: "DOC: <Enter title here, leaving the 'DOC: ' prefix>"
+title: "(doc): <Enter title here, leaving the '(doc): ' prefix>"
 labels: ["documentation"]
 
 body:

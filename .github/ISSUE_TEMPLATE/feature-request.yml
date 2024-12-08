@@ -1,6 +1,6 @@
 name: ✨ Feature Request
 description: Submit a feature request
-title: "FR: <Enter title here, leaving the 'FR: ' prefix>"
+title: "(feat): <Enter title here, leaving the '(feat): ' prefix>"
 labels: ["enhancement"]
 
 body:

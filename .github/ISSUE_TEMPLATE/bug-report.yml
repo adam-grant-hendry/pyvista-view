@@ -1,6 +1,6 @@
 name: 🐛 Bug
 description: File a bug
-title: "BUG: <Enter title here, leaving the 'BUG: ' prefix>"
+title: "(bug): <Enter title here, leaving the '(bug): ' prefix>"
 labels: ["bug"]
 
 body:
