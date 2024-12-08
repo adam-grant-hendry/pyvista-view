@@ -27,6 +27,30 @@ Branching and Versioning Strategy
 
     -- `Brett Cannon`_
 
+Testing
+-------
+
+``tox`` is used to test code. To use ``uv`` virtual environments with ``tox``, install ``tox-uv`` as a tool:
+
+.. code-block:: bash
+
+   uv tool install tox --with tox-uv --force-reinstall
+
+
+To run tests, execute the following:
+
+.. code-block:: bash
+
+   uvx tox
+
+which is set to run
+
+.. code-block:: bash
+
+   coverage run -m pytest
+
+for all Python versions this package supports.
+
 Becoming a Maintainer
 ---------------------
 

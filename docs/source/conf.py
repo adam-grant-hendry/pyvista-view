@@ -47,6 +47,7 @@ extensions: list[str] = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinxcontrib.email',
+    'sphinx_copybutton',
 ]
 
 # -- General configuration --------------------------------------------------------------
