@@ -14,8 +14,8 @@ import pyvista_view
 
 # -- Project information ----------------------------------------------------------------
 
-project = 'pyvista-view'
-copyright = f'2022-{datetime.now(tz=timezone.utc).year}, Adam Hendry'  # noqa: A001
+project = 'demo'
+copyright = f'2024-{datetime.now(tz=timezone.utc).year}, Adam Hendry'  # noqa: A001
 author = 'Adam Hendry'
 root_package = 'pyvista_view'
 version = pyvista_view.__version__
@@ -41,26 +41,26 @@ for pkg in packages:
 # -- Extensions -------------------------------------------------------------------------
 
 extensions: list[str] = [
+    'myst_parser',
     'numpydoc',
     'sphinx_book_theme',
-    'sphinx.ext.autosectionlabel',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.napoleon',
-    'sphinxcontrib.email',
     'sphinx_copybutton',
 ]
+
+myst_heading_anchors = 6
 
 # -- General configuration --------------------------------------------------------------
 
 # Paths are relative to ``source``
 html_static_path = ['_static']
 
-source_suffix = '.rst'
 master_doc = 'index'
 
 # List of files relative to ``source`` to ignore when looking for source files
 exclude_patterns: list[str] = [
     '_build',
+    'build',
 ]
 
 # -- HTML Output ------------------------------------------------------------------------

@@ -29,13 +29,12 @@ dev = [
     "pyvista-view[docs,github,utils,lint,typing,stubs,tests,perftests]"
 ]
 docs = [
-    "Jinja2 >=3.0,<3.1", # See https://github.com/astropy/astropy/issues/11725
+    "Jinja2 >=3.0,<3.1",
+    "myst-parser>=3.0.1", # See https://github.com/astropy/astropy/issues/11725
     "numpydoc >=1.4.0",
-    "sphinx <8.2.0",
+    "sphinx>=7.3.7",
     "sphinx-book-theme >=0.3.3",
     "sphinx-copybutton>=0.5.2",
-    "sphinxcontrib-email >=0.3.5",
-    "sphinxcontrib-napoleon >=0.7",
     "tomli >=2.0.1",
 ]
 github = [
