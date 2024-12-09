@@ -14,7 +14,7 @@ import pyvista_view
 
 # -- Project information ----------------------------------------------------------------
 
-project = 'demo'
+project = 'pyvista-view'
 copyright = f'2024-{datetime.now(tz=timezone.utc).year}, Adam Hendry'  # noqa: A001
 author = 'Adam Hendry'
 root_package = 'pyvista_view'
